@@ -1,5 +1,4 @@
 <?php
-$hii = "hii!";
 $pdo = new PDO('mysql:host=localhost;dbname=recados', 'root', '');
 
 if (isset($_POST['nome'])) {
